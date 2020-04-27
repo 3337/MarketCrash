@@ -4,9 +4,9 @@ The program updates the prices in 72 seconds (to do not interfere any api reques
 For the Dow Jones and BTC price it using API-s what available publicly without a key. (api.coinbase.com and financialmodelingprep.com).
 
 The program checks:
-BTC price in USD
-Dow Jones index price in USD
-USD price in HUF
-EUR price in HUF
-GBP price in HUF
+BTC price in USD,
+Dow Jones index price in USD,
+USD price in HUF,
+EUR price in HUF,
+GBP price in HUF,
 CHF price in HUF
