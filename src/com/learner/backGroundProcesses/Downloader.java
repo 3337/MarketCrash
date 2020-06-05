@@ -13,7 +13,7 @@ public class Downloader {
     private final static String downloadBTC = "https://api.coinbase.com/v2/prices/spot?currency=USD";
     private final static String downloadHufUsdEur = "https://free.currconv.com/api/v7/convert?q=USD_HUF,EUR_HUF&compact=ultra&apiKey=" + ApiKeyStore.getCurrconvKey();
     private final static String downloadHufGbpChf = "https://free.currconv.com/api/v7/convert?q=GBP_HUF,CHF_HUF&compact=ultra&apiKey=" + ApiKeyStore.getCurrconvKey();
-    private final static String downloadDOW = "https://financialmodelingprep.com/api/v3/majors-indexes/.DJI";
+    private final static String downloadDOW = "https://financialmodelingprep.com/api/v3/majors-indexes/.DJI?apikey=" + ApiKeyStore.getDowKey();
 
 
     public void download(TypeOfMoney typeOfMoney, String fileNameToStoreDownload) {
