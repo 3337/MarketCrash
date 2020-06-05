@@ -11,4 +11,4 @@ EUR price in HUF,
 GBP price in HUF,
 CHF price in HUF
 
-<img src="img/MarketCrash.png" width="381" height="263">
+<p align="center"><img src="img/MarketCrash.png" width="381" height="263"></p>
